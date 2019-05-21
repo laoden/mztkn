@@ -1,0 +1,136 @@
+<DOC
+<html>
+
+<body>
+
+<div>
+<h1>文本格式化<h1/>
+<b>This text is bold</b>
+<br />
+<strong>This text is strong</strong>
+<br />
+<big>This text is big</big>
+<br />
+<em>This text is emphasized</em>
+<br />
+<i>This text is italic</i>
+<br />
+<small>This text is small</small>
+<br />
+This text contains
+<sub>subscript</sub>
+<br />
+This text contains
+<sup>superscript</sup>
+</div>
+
+<div>
+<h1>预格式文本：此例演示如何使用pre标签对空行和空格进行保留<h1/>
+<pre>
+这是
+预格式文本。
+它保留了      空格
+和换行。
+</pre>
+<p>pre 标签很适合显示计算机代码：</p>
+<pre>
+for i = 1 to 10
+     print i
+next i
+</pre>
+</div>
+
+<div>
+<h1>缩写和首字母缩写</h1>
+<abbr title="etcetera">etc.</abbr>
+<br />
+<acronym title="World Wide Web">WWW</acronym>
+<p>在某些浏览器中，当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。</p>
+<p>仅对于 IE 5 中的 acronym 元素有效。</p>
+<p>对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效。</p>
+</div>
+
+<div>
+<p>
+如果您的浏览器支持 bi-directional override (bdo)，下一行会从右向左输出 (rtl)；
+</p>
+<bdo dir="rtl">
+Here is some Hebrew text
+</bdo>
+</div>
+
+<div>
+<h1>文字方向</h1>
+<p>
+如果您的浏览器支持 bi-directional override (bdo)，下一行会从右向左输出 (rtl)；
+</p>
+<bdo dir="rtl">
+Here is some Hebrew text
+</bdo>
+</div>
+
+<div>
+这是长的引用：
+<blockquote>
+这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。这是长的引用。
+</blockquote>
+这是短的引用：
+<q>
+这是短的引用。
+</q>
+<p>
+使用 blockquote 元素的话，浏览器会插入换行和外边距，而 q 元素不会有任何特殊的呈现。
+</p>
+</div>
+
+<div>
+<h1>删除字和插入字效果</h1>
+<p>一打有 <del>二十</del> <ins>十二</ins> 件。</p>
+<p>大多数浏览器会改写为删除文本和下划线文本。</p>
+<p>一些老式的浏览器会把删除文本和下划线文本显示为普通文本。</p>
+</div>
+
+<div>
+<h1>条件注释</h1>
+您也许会在 HTML 中偶尔发现条件注释：
+<!--[if IE 8]>
+    .... some HTML here ....
+<![endif]-->
+条件注释定义只有 Internet Explorer 执行的 HTML 标签。
+</div>
+
+<div>
+<h1>HTML 链接 - target 属性</h1>
+使用 Target 属性，你可以定义被链接的文档在何处显示。
+下面的这行会在新窗口打开文档：
+<a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>
+</div>
+
+<div>
+	<h1>链接到同一页面不同位置</h1>
+<p>
+<a href="#C4">查看 Chapter 4。</a>
+</p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2><a name="C4">Chapter 4</a></h2>
+<p>This chapter explains ba bla bla</p>
+
+</div>
+
+<div>
+<h1>替换文本属性（Alt）</h1>
+alt 属性用来为图像定义一串预备的可替换的文本。替换文本属性的值是用户定义的。
+<img src="boat.gif" alt="Big Boat">	
+</div>
+
+</body>
+</html>
